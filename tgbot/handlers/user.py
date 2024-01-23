@@ -7,4 +7,4 @@ user_router = Router()
 
 @user_router.message(CommandStart())
 async def user_start(message: Message):
-    await message.reply("Вітаю, звичайний користувач!")
+    await message.reply("🥳 Welcome on linkedin!")
